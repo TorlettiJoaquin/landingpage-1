@@ -1,1 +1,71 @@
 /* Empezamos a codear en este css, utilizando la medida de 375px de ancho */
+
+/* header start */
+header {
+    background-image: url("../images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 7rem 0.8rem 5rem 0.8rem;
+}
+
+.tittle-header {
+    padding: 3rem 0 1rem 0;
+    color: hsl(210, 10%, 33%);
+}
+
+.p-header {
+    padding: 0 0.1rem 3rem 0.1rem;
+    color: hsl(201, 11%, 66%);
+}
+
+.btn-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+
+.btn-header .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 100px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.ios-btn {
+    background-color: hsl(171, 66%, 44%)
+}
+
+.mac-btn {
+    
+    background-color: hsl(233, 100%, 69%)
+}
+/* header end */
+
+/* main start*/
+/* snippets start */
+.snippets {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem 0.8rem 5rem 0.8rem;
+}
+
+.tittle-snippets {
+    color: hsl(210, 10%, 33%);
+}
+
+.p-snippets {
+    padding-top: 1rem;
+    color: hsl(201, 11%, 66%);
+}
+
+/* snippets end */
+/* main end */
