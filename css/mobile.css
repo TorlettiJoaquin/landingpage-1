@@ -37,7 +37,7 @@
 
 }
 .boton-mac{
-    margin-bottom: .5rem;
+    margin-bottom: 1.5rem;
     width: 20rem;
     border-radius: 39px;
     border: 1px solid hsl(233, 100%, 69%);
@@ -54,8 +54,9 @@
     text-align: center;
     background: hsl(0, 18%, 97%);
 }
-.logo-footer{
-   margin-top: 2rem;
+.logo-footer img{
+    width: 70px;
+    margin-top: 20px;
 }
 .items-footer ul{
     display: flex;
