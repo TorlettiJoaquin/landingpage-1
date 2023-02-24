@@ -1,5 +1,8 @@
 /* Empezamos a codear en este css, utilizando la medida de 375px de ancho */
 
+
+
+
 /* header start */
 header {
     background-image: url("../images/bg-header-mobile.png");
@@ -76,6 +79,7 @@ header {
     text-align: center;
     margin: 15px;
 }
+
 .clipboard h3{
     margin-bottom: 2rem;
     color: hsl(210, 10%, 33%);
@@ -89,6 +93,7 @@ header {
     margin-bottom: 2rem;
     line-height: 25px;
 }
+
 .clipboard .botones-iosmac{
     display: flex;
     flex-direction: column;
@@ -96,6 +101,7 @@ header {
     font-weight: 400;
     font-size: 1.3rem;
 }
+
 .boton-ios{
     margin-bottom: 1.5rem;
     width: 20rem;
@@ -109,6 +115,7 @@ header {
     font-size: 1.3rem;
 
 }
+
 .boton-mac{
     margin-bottom: 1.5rem;
     width: 20rem;
@@ -121,6 +128,7 @@ header {
     font-weight: 600;
     font-size: 1.3rem;
 }
+
 .boton-ios:hover, .boton-mac:hover{
 opacity: .5;
 }
@@ -137,10 +145,12 @@ opacity: .5;
     text-align: center;
     background: hsl(0, 18%, 97%);
 }
+
 .logo-footer img{
     width: 70px;
     margin-top: 20px;
 }
+
 .items-footer ul{
     display: flex;
     flex-direction: column;
@@ -148,18 +158,25 @@ opacity: .5;
     justify-content: space-evenly;
     margin-bottom: 2rem;
 }
+
 .items-footer ul > a:hover{
 
  color: hsl(171, 66%, 44%);
 }
+
 .redes-footer ul{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 2rem;
+    width: 80vw;
+    margin: 0 auto 2rem auto;
 }
-.redes-footer ul > img:hover{
-    
+
+.redes-footer a {
+    font-size: 2rem;
+    color: hsl(206, 8%, 33%);
+}
+
+.redes-footer a:hover{
     color: hsl(171, 66%, 44%);
 }
 
