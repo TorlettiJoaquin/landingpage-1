@@ -7,6 +7,7 @@
 header {
     background-image: url("../images/bg-header-mobile.png");
     background-repeat: no-repeat;
+    background-size: contain;
     text-align: center;
     padding: 7rem 0.8rem 5rem 0.8rem;
 }
@@ -49,6 +50,10 @@ header {
 .mac-btn {
     
     background-color: hsl(233, 100%, 69%)
+}
+
+.mac-btn:hover, .boton-mac:hover{
+    opacity: .5;
 }
 /* header end */
 
