@@ -84,6 +84,14 @@
         text-align: center;
         padding: 0 8.5rem;
     }
+    .clipboard .botones-iosmac{
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+    }
+    .boton-ios, .boton-mac{
+        margin: 0 1rem ;
+    }
     /* clipboard end*/
 
     /* main end */
