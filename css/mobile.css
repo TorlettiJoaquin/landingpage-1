@@ -145,6 +145,7 @@ opacity: .5;
 .supercharge {
     padding: 2rem 0.8rem;
     text-align: center;
+    line-height: 1.4;
 }
 
 .supercharge-intro {
@@ -169,6 +170,7 @@ opacity: .5;
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
