@@ -140,6 +140,47 @@ opacity: .5;
 
 /* clipboard end*/
 
+/*supercharge start*/
+
+.supercharge {
+    padding: 2rem 0.8rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.supercharge-intro {
+    margin-bottom: 3rem;
+}
+
+.icon {
+    font-size: 3rem;
+    margin: 2rem 0;
+    color: hsl(201, 11%, 66%);
+}
+.title-supercharge, .subTitle-supercharge {
+    color: hsl(210, 10%, 33%);
+}
+
+.p-supercharge {
+    padding-top: 1rem;
+    color: hsl(201, 11%, 66%);
+}
+
+.supercharge-logos {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.supercharge-img {
+    display: block;
+    object-fit: contain;
+    margin: 2.5rem 0;
+}
+/*supercharge end*/
+
 /* main end */
 
 /* footer start */

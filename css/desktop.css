@@ -94,6 +94,69 @@
     }
     /* clipboard end*/
 
+    /*supercharge start*/
+        /*Usando las medidas de Bootstrap para el responsive
+            576px / 426px (modifico esta medida para adaptarla a que ustedes ya tienen)
+            768px
+            992px
+            1024px
+            1200px
+        */
+
+    @media screen and (min-width: 426px) {
+        .supercharge-icons, .supercharge-logos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            gap: 1.1rem;
+        }
+
+        .supercharge-sneak {
+            grid-column: 1 / -1;
+        }
+        
+        .supercharge-img-content--mod {
+            grid-column: 1 / -1;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .supercharge-icons {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .supercharge-sneak {
+            grid-column: 3 / 4;
+        }
+        
+        .supercharge-logos {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .supercharge-img-content--mod {
+            grid-column: 3 / 4;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        .supercharge-logos {
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        .supercharge-img-content--mod {
+            grid-column: 5 / 6;
+        }
+    }
+
+    @media screen and (min-width:1200px) {
+        .supercharge {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
+
+    /*supercharge end*/
+
     /* main end */
 
     /* footer start */
