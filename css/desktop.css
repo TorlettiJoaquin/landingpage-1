@@ -80,9 +80,18 @@
     /* snippets end */
 
     /* clipboard start */ 
-
-    
-
+    .clipboard{
+        text-align: center;
+        padding: 0 8.5rem;
+    }
+    .clipboard .botones-iosmac{
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+    }
+    .boton-ios, .boton-mac{
+        margin: 0 1rem ;
+    }
     /* clipboard end*/
 
     /*supercharge start*/
@@ -151,8 +160,28 @@
     /* main end */
 
     /* footer start */
-
-    
+    .footer-principal{
+        display: flex;
+        justify-content:space-around ;
+        align-items: center;
+    }
+    .items-footer{
+        padding-top: 3rem;
+    }
+    .items-footer ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .items-footer ul li{
+        margin-right: 2rem;
+    }
+    .redes-footer ul{
+        max-width: 20vw;
+    }
+    .redes-footer ul > li{
+        margin-left: 0;
+    }
 
     /* footer end*/
+
 }
