@@ -183,7 +183,7 @@ header {
 
 .boton-ios {
     margin-bottom: 1.5rem;
-    width: 20rem;
+    max-width: 20rem;
     border-radius: 39px;
     border: 1px solid hsl(171, 66%, 44%);
     background: hsl(171, 66%, 44%);
@@ -196,7 +196,7 @@ header {
 
 .boton-mac {
     margin-bottom: 1.5rem;
-    width: 20rem;
+    max-width: 20rem;
     border-radius: 39px;
     border: 1px solid hsl(233, 100%, 69%);
     background: hsl(233, 100%, 69%);
@@ -271,15 +271,17 @@ header {
 
 .logo-footer img {
     width: 70px;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .items-footer ul {
     display: flex;
     flex-direction: column;
-    height: 250px;
     justify-content: space-evenly;
     margin-bottom: 2rem;
+}
+.items-footer ul li{
+    margin-bottom: 1rem;
 }
 
 .items-footer ul>a:hover {
